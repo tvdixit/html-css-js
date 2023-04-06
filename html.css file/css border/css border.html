@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            margin: 40px;
+            padding: 15px;
+            color: orange;
+            text-decoration: line-through;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            text-shadow: 3px 1px 1px red;
+        }
+
+        div {
+            background-color: lightgrey;
+            width: auto;
+            border: 10px solid green;
+            padding: 30px;
+            margin: 10px;
+        }
+
+        p.color {
+            text-decoration: overline;
+            text-decoration-color: yellowgreen;
+        }
+
+        p.dotted {
+            border-style: dotted;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: solid;
+            border-radius: 3px;
+            letter-spacing: 5px;
+
+        }
+
+        p.dashed {
+            border-style: dashed;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: groove;
+            border-radius: 5px;
+        }
+
+        p.solid {
+            border-style: solid;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: inherit;
+
+        }
+
+        p.double {
+            border-style: double;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: initial;
+        }
+
+        p.groove {
+            border-style: groove;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: ridge;
+            padding: 50px;
+            margin: 50px;
+        }
+
+        p.ridge {
+            border-style: ridge;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: initial;
+        }
+
+        p.inset {
+            border-style: inset;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: hidden;
+
+        }
+
+        p.outset {
+            border-style: outset;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: double;
+        }
+
+        p.none {
+            border-style: none;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: groove;
+        }
+
+        p.hidden {
+            border-style: hidden;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: dashed;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+            border-width: thick;
+            border-color: gray;
+            border-top-style: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Border-Style property</h2>
+    <p class="color">This Property specifies what kind of border to display : </p>
+    <div>
+        <p class="dotted">A Dotted border</p>
+        <p class="dashed">A Dashed border</p>
+        <p class="solid">A Solid border</p>
+        <p class="double">A Double border</p>
+        <p class="groove">A Groove border</p>
+        <p class="ridge">A Ridge border</p>
+        <p class="inset">A inset border</p>
+        <p class="outset">A outset border</p>
+        <p class="none">A none border</p>
+        <p class="hidden">A hidden border</p>
+        <p class="mix">A mix border</p>
+    </div>
+</body>
+
+</html>
