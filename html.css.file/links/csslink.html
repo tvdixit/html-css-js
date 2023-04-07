@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    a:link{
+        color: red;
+        text-decoration: underline;
+        
+    }
+
+    a:visited{
+        color: wheat;
+        
+    }
+
+    a:hover{
+        color: pink;
+        background-color: white;
+    }
+
+    a:active{
+        color:orange;
+    }
+
+    a:link, a:visited{
+        padding: 14px 25px;
+        background-color:black;
+    }
+
+    a:hover, a:active{
+        color: white;
+        background-color:orangered ;
+    
+    }
+</style>
+</head>
+<body>
+    <h2>Styling a link depending on state</h2>
+    <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link" target="_blank">This is Link</a>
+    <p><b>Note :</b>hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+    <p><b>Note :</b>active MUST come after a:hover in the CSS definition in order to be effective.</p>
+</body>
+</html> 
