@@ -1,0 +1,38 @@
+#navlist {
+    position: relative;
+}
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+#home {
+    left: 0px;
+    width: 40px;
+    background: url('120px-Img_navsprites.gif') 0 0;
+}
+#prev {
+    left: 60px;
+    width: 40px;
+    background: url('120px-Img_navsprites.gif') -40px 0;
+}
+#next {
+    left: 120px;
+    width: 40px;
+    background: url('120px-Img_navsprites.gif') -80px 0;
+}
+#home a:hover {
+    background: url('120px-Img_navsprites.gif') 0 -40px;
+}
+#prev a:hover {
+    background: url('120px-Img_navsprites.gif') -40px -40px;
+}
+#next a:hover {
+    background: url('120px-Img_navsprites.gif') -80px -40px;
+}

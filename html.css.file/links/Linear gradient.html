@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #grad0 {
+        height: 100px;
+        background-color: red;
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    }
+    #grad1 {
+        height: 200px;
+        background-color: red;
+        background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    }
+    #grad2 {
+        height: 200px;
+        background-color: red;
+        background-image: repeating-linear-gradient(45deg, red, yellow 7%, green 10%);
+    }
+    #grad3 {
+        height: 200px;
+        background-color: red;
+        background-image: repeating-linear-gradient(190deg, red, yellow 7%, green 10%);
+    }
+    #grad4 {
+        height: 200px;
+        background-color: red;
+        background-image: repeating-linear-gradient(90deg, red, yellow 7%, green 10%);
+    }
+    #grad5 {
+        height: 200px;
+        background-color: red;
+        background-image: repeating-linear-gradient(45deg, red 0px, red 10px, red 10px, yellow 10px, yellow 20px);
+    }
+</style>
+</head>
+<body>
+    <div id="grad0" style="text-align: center; margin: auto; color: #888888; font-size: 50px; font-weight: bold;">
+        Rainbow Background
+    </div>
+    <h1>Repeating Linear gradient</h1>
+
+    <div id="grad1"></div>
+    <p>A Repeating gradient on 45 deg axe starting red and finishing green:</p>
+    <div id="grad2"></div>
+
+    <p>A repeating gradient on 190 deg axe starting red and finishing green:</p>
+    <div id="grad3"></div>
+
+    <p>A repeating gradient on 90deg axe starting red and finishing green:</p>
+    <div id="grad4"></div>
+    
+    <p>A repeating linear gradient with solid stripes:</p>
+    <div id="grad5"></div>
+
+</body>
+</html>
