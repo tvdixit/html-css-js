@@ -1,0 +1,27 @@
+.header {
+    background-image: url("architect.jpg");
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BR {
+    background-color: black;
+    visibility: visible;
+    opacity: 0.8;
+    color: white;
+}
+.color {
+    color: white;
+    
+}
+.bar {
+    text-align: right;
+    align-items: top;
+    margin: auto;
+    display: inline-flex;
+
+}
+#latter {
+    letter-spacing: 5px;
+}

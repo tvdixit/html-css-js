@@ -1,0 +1,130 @@
+.main {
+    display: flex;
+    border-style: solid;
+    position: absolute;
+    background-color: aqua;
+}
+.sub1 {
+    display: flex;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+}
+    .div11 {
+        border-style: solid;
+        background-color: black;
+        height: 75px;
+        width: 75px;
+    }
+    .div12 {
+        border-style: solid;
+        background-color: blue;
+        height: 75px;
+        width: 75px;
+    }
+    .div13 {
+        border-style: solid;
+        background-color: red;
+        height: 75px;
+        width: 75px;
+    }
+    .div14 {
+        border-style: solid;
+        background-color: white;
+        height: 75px;
+        width: 75px;
+    }
+.sub2 {
+    border-style: solid;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+    .div21 {
+        border-style: solid;
+        background-color: black;
+        height: 75px;
+        width: 75px;
+    }
+    .div22 {
+        border-style: solid;
+        background-color: blue;
+        height: 75px;
+        width: 75px;
+    }
+    .div23 {
+        border-style: solid;
+        background-color: red;
+        height: 75px;
+        width: 75px;
+    }
+    .div24 {
+        border-style: solid;
+        background-color: white;
+        height: 75px;
+        width: 75px;
+    }
+.sub3 {
+    display: flex;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+    .div31 {
+        border-style: solid;
+        background-color: black;
+        height: 75px;
+        width: 75px;
+    }
+    .div32 {
+        border-style: solid;
+        background-color: blue;
+        height: 75px;
+        width: 75px;
+    }
+    .div33 {
+        border-style: solid;
+        background-color: red;
+        height: 75px;
+        width: 75px;
+    }
+    .div34 {
+        border-style: solid;
+        background-color: white;
+        height: 75px;
+        width: 75px;
+    }
+.sub4 {
+    display: flex;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+}
+    .div41 {
+        border-style: solid;
+        background-color: black;
+        height: 75px;
+        width: 75px;
+    }
+    .div42 {
+        border-style: solid;
+        background-color: blue;
+        height: 75px;
+        width: 75px;
+    }
+    .div43 {
+        border-style: solid;
+        background-color: red;
+        height: 75px;
+        width: 75px;
+    }
+    .div44 {
+        border-style: solid;
+        background-color: white;
+        height: 75px;
+        width: 75px;
+    }

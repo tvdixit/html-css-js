@@ -1,0 +1,152 @@
+body {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    width: 100%;
+}
+
+.sub1 {
+    background-color: brown;
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.div11 {
+    background-color: black;
+    height: 25vh;
+    width: 50%;
+
+}
+
+.div12 {
+    background-color: blue;
+    height: 25vh;
+    width: 50%;
+}
+
+.div13 {
+    background-color: red;
+    height: 25vh;
+    width: 50%;
+}
+
+.div14 {
+    background-color: white;
+    height: 25vh;
+    width: 50%;
+}
+
+.sub2 {
+    background-color: blue;
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.div15 {
+    background-color: green;
+    height: 25vh;
+    width: 50%;
+}
+
+.div16 {
+    background-color: gray;
+    height: 25vh;
+    width: 50%;
+}
+
+.div17 {
+    background-color: orange;
+    height: 25vh;
+    width: 50%;
+}
+
+.div18 {
+    background-color: hotpink;
+    height: 25vh;
+    width: 50%;
+
+}
+
+.sub3 {
+    background-color: yellow;
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.div19 {
+    background-color: lawngreen;
+    height: 25vh;
+    width: 50%;
+
+}
+
+.div20 {
+    background-color: salmon;
+    height: 25vh;
+    width: 50%;
+}
+
+.div21 {
+    background-color: tomato;
+    height: 25vh;
+    width: 50%;
+}
+
+.div22 {
+    background-color: orangered;
+    height: 25vh;
+    width: 50%;
+}
+
+.sub4 {
+    background-color: violet;
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+}
+
+.div23 {
+    background-color: black;
+    height: 25vh;
+    width: 50%;
+}
+
+.div24 {
+    background-color: blue;
+    height: 25vh;
+    width: 50%;
+}
+
+.div25 {
+    background-color: red;
+    height: 25vh;
+    width: 50%;
+}
+
+.div26 {
+    background-color: white;
+    height: 25vh;
+    width: 50%;
+}
