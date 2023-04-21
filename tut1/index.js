@@ -178,3 +178,249 @@
 // document.getElementById("Demo").innerHTML =
 // typeof carName;
 
+// var a = 10;
+// var b ="10";
+
+// console.log(a == b);
+
+// var a = 10;
+// var b = "10";
+
+// console.log(a === b);
+
+// var a = 10;
+// var b = "10";
+
+// console.log(2 != 3);
+
+// var a = 200;
+// var b = 400;
+
+// if (a>=b || a<=b){
+//     console.log("Yees");
+// }
+
+
+// if else:
+
+// a = 200;
+
+// if (a>100){
+//     console.log("Yes it is")
+// }
+// else{
+//     console.log("No this is not")
+// }
+
+
+// if (a<10){
+//     console.log("Yes is it")
+// }
+// else{
+//     console.log("NO  this is not")
+// }
+
+//  ? :
+// var x = 15;
+// var z;
+
+// (x > 10) ? b = "true" : b = "false";
+// // document.write(b);
+// console.log(b);
+
+// String Methods :
+// 1.length :
+// var str = "Javascript is a Great Language";
+// var a = str.length;
+
+// document.write(a);
+
+// 2.toLowercase:
+// var str = "javascript is a greater language";
+// var a =str.toLowerCase();
+
+// document.write(a);
+
+// // 3.toUppercase
+// var str = "javascript is a greater language";
+// var a = str.toUpperCase();
+
+// document.write(a);
+
+// 4.includes
+// var str ="Javascript is a greater language";
+// var a =str.includes("is");
+// document.write(a);
+
+// 5.startswith
+// var str = "Javascript is a greater language";
+// var a = str.includes("Javascript");
+// document.write(a);
+
+// 6.endswith
+// var str = "Javascript is a greater language";
+// var a = str.endsWith("language");
+// document.write(a);
+
+// 7.search
+// var str = "Javascript is a greater language";
+// var a = str.search("is");
+// document.write(a);
+
+// 8.match
+// var str = "Javascript is a greater language";
+// var a = str.includes("is a ");
+// document.write(a);
+
+// 9.indexof
+// var str = "Javascript is a greater language";
+// var a = str.indexOf("is");
+// document.write(a);
+// document.write("<br>")
+
+
+// 10.lastindexof
+// var str = "Javascript is a greater language";
+// var a = str.lastIndexOf("script");
+// document.write(a);
+// document.write("<br>")
+
+
+// 11.replace
+// var str = "Javascript is a greater language";
+// var a = str.replace("Javascript", "Php");
+// document.write(a);
+// document.write("<br>")
+
+// 12.trim
+// var str = "Javascript is a greater language";
+// var a = str.trim();
+// // document.write(a);
+// alert(a)
+// document.write("<br>")
+
+// 13.charAT
+// var str = "Javascript is a greater language";
+// var a = str.charAt(7);
+// document.write(a);
+// document.write("<br>")
+
+// 14.charCodeat
+// var str = "Javascript is a greater language";
+// var a = str.charCodeAt("1");
+// document.write(a);
+// document.write("<br>")
+
+// 15.fromCharcode
+// var str = "Javascript is a greater language";
+// var a = String.fromCharCode("68", "73", "88", "73", "84");
+// document.write(a);
+// document.write("<br>")
+
+// 16.concat :
+// var str = "Javascript is a greater language";
+// var str2 = "Hello "
+// var a = str.concat(str2);
+// document.write(a);
+// document.write("<br>")
+
+// 17.split
+// var str = "Javascript is a greater language";
+// var a = str.split("i");
+// document.write(a);
+// document.write("<br>")
+
+// 18.repeat
+// var str = "edioawjfojoFJJAWIODJIXJ";
+// var a = str.repeat(2);
+// document.write(a);
+// document.write("<br>")
+
+//19.SLICE:
+// var str = "Javascript is a greater language";
+// var a = str.slice(3);
+// document.write(a);
+// document.write("<br>")
+
+// 20.substr:
+// var str = "Javascript is a greater language";
+// var a = str.substr(1, 5);
+// document.write(a);
+// document.write("<br>")
+
+// 21.substring
+// var str = "Javascript is a greater language";
+// var a = str.substring(1,5);
+// document.write(a);
+// document.write("<br>")
+
+// 22.tostring
+// var str = "Javascript is a greater language";
+// var str = 33;
+// var a = str.toString();
+// document.write(str + 22);
+// document.write("<br>")
+
+// 23.valueof
+// var str = "Javascript is a greater language";
+// var a = str.valueOf();
+// document.write(a);
+// document.write("<br>")
+
+// try {
+//     var a = 10;
+//     john;
+// } 
+// catch (error) {
+//     console.log(error.name);
+//     console.log(error.message);
+// }
+
+// slice :(start, end)
+// substring:(start, end)
+// substr: (start, length)
+
+// slice
+// let text = "apple, banana, cherry";
+// let part = text.slice(2, 4);
+// document.getElementById("Demo").innerHTML = part;
+
+// let text = "apple, banana, cherry";
+// let part = text.slice(-7);
+// console.log(part);
+// document.getElementById("Demo").innerHTML = part;
+
+// substring
+// let text = "apple, banana, cherry";
+// let part = text.substring(7);
+// console.log(part);
+// document.getElementById("Demo").innerHTML = part;
+
+// // substr
+// let text = "apple, banana, cherry";
+// let part = text.substr(7);
+// console.log(part);
+// document.getElementById("Demo").innerHTML = part;
+
+
+
+// var grade = "C";
+// var result;
+// switch (grade) {
+//     case "A":
+//         result = "A Grade";
+//         break;
+//     case "B":
+//         result = "B Grade";
+//         break;
+//     case "C":
+//         result = "C Grade";
+//         break;
+//     default:
+//         result = "No Grade";
+// }
+// document.write(result);
+// console.log(result);
+
+let x = Number.MAX_SAFE_INTEGER;
+document.getElementById("Demo").innerHTML = x;
