@@ -110,7 +110,7 @@
 // String.reverse();
 // console.log(String);
 // O/P :
-// ['a', 'h', 'D', 'C', 'B', 'B', 'A']
+// ['a', 'h', 'D', 'C', 'B', 'B', 'A']s
 // ___________________________________________________
 // indexof
 // let Array = ["abc", "edf", "ghi"];
