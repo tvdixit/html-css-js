@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Current Date :<br> <button id="onclick" onclick="date()">Click Me </button><br>
+    Enter Name : <input type="text" id="Change" onchange="myFunction()" onkeypress="press()" onkeydown="down()">
+    <input type="submit"><br>
+
+    <p onmouseover="text(this)" id="mouse" onmouseout="normal(this)" style="display: inline-block;">Hii, There</p>
+    <script>
+        // click event Date : it shows current Date.
+        const oc = document.querySelector("#onclick")
+        function date() {
+            const d = new Date();
+            document.getElementById("onclick").innerHTML = d;
+            console.log(Date());
+        }
+        // ______________________________________________________
+        // onChange Event
+        function myFunction() {
+            console.log(document.querySelector("#Change").value.toUpperCase());
+        }
+        // ______________________________________________________
+        // onmouseover :
+        function text() {
+            console.log(document.querySelector("#mouse").style.color = ("red"))
+        }
+
+        // onmouseout :
+        function normal() {
+            console.log(document.querySelector("#mouse").style.color = ("black"))
+        }
+        function press() {
+            console.log(document.querySelector("#Change").style.color=("blue"));
+        }
+        function down() {
+                console.log(document.querySelector("#Change").style.color = ("red"));
+            }
+    </script>
+</body>
+
+</html>

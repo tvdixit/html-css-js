@@ -146,15 +146,52 @@
 // ______________________________________________________
 
 
-const cars = ["BMW", "Volvo", "Saab", "Ford"];
-let text = "";
+// const cars = ["BMW", "Volvo", "Saab", "Ford"];
+// let text = "";
 
-list:{
-    text += cars[0] + "<br>";
-    text += cars[1] + "<br>";
-    // list; "{continue}"
-    text += cars[2] + "<br>";
-    text += cars[3] + "<br>";
+// list:{
+//     text += cars[0] + "<br>";
+//     text += cars[1] + "<br>";
+//     // list; "{continue}"
+//     text += cars[2] + "<br>";
+//     text += cars[3] + "<br>";
+// }
+// console.log(text);
+
+// ______________________________________________________
+// click event Date : it shows current Date.
+const oc = document.querySelector("#onclick")
+function date() {
+    console.log(Date());
+}
+// ______________________________________________________
+// onChange Event
+function myFunction() {
+    console.log(document.querySelector("#Change").value.toUpperCase());
+}
+// ______________________________________________________
+// onmouseover :
+function text() {
+    console.log(document.querySelector("#mouse").style.color = ("red"))
 }
 
-console.log(text);
+// onmouseout :
+function normal() {
+    console.log(document.querySelector("#mouse").style.color = ("black"))
+}
+
+// _____________________________________________________){
+// const j = [45, 4, 9, 16, 25];
+// for (let i = 0; i < j.length; i++)
+// {
+//     console.log(j);
+// }
+// _____________________________________________________
+const letters = new Set("a");
+
+letters.add("c");
+letters.add("d");
+letters.add("e");
+letters.add("f");
+console.log(letters);
+// _____________________________________________________
