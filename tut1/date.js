@@ -188,10 +188,12 @@ function normal() {
 // }
 // _____________________________________________________
 const letters = new Set("a");
-
 letters.add("c");
 letters.add("d");
 letters.add("e");
 letters.add("f");
+
+// catch(error){
 console.log(letters);
+// }           
 // _____________________________________________________
