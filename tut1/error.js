@@ -54,7 +54,7 @@ finally {
 function myFunction() {
     const message = document.getElementById("Demo");
     let x = document.getElementById("demo").value;
-        // console.log("").value;
+    // console.log("").value;
 
     try {
         if (x.trim() == "") throw "is empty";
@@ -64,9 +64,9 @@ function myFunction() {
         if (x < 5) throw "is too low";
     }
     catch (error) {
-        message.innerHTML = "input"  + error;
+        message.innerHTML = "input" + error;
     }
-    finally { 
+    finally {
         document.getElementById("demo").value = "";
     }
 }
@@ -82,9 +82,33 @@ function day() {
 //     console.log(a + b + c);
 // }
 // test(10, 20, 30);
-let hello = ""
-hello = () => {
-    return "Hello World";
-    
-}
-console.log(hello);
+// let hello = ""
+// hello = () => {
+//     return "Hello World";
+
+// }
+// console.log(hello);
+// _______________________________________________________
+// Object.json
+
+const txt = '{"name":"John", "age":30, "city":"New York"}'
+// const x = employees[0]
+const obj = JSON.parse(txt);
+console.log(obj.age);
+// _______________________________________________________
+//array.json :
+
+const string = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+const x = JSON.parse(string);
+console.log(x[0]);
+
+    employees[0].firstName = "gilbert";
+    console.log(employees[0].firstName);
+// Index find :
+    console.log(employees[0].firstName);
+
+ForEach :
+employees.forEach((employees) => {
+    let x = employees.firstName;
+    console.log(x)
+});
