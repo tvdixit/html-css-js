@@ -1,0 +1,21 @@
+.form {
+background-color: black;
+display: grid;
+padding: 5% 0 6% 0  ;
+
+}
+.todo {
+margin-top: -2%;
+text-align: center;
+background-color: rgb(51, 212, 51);
+}
+.fname {
+margin-left: 550px;
+margin-bottom: 2%;
+padding: 1%;
+}
+.lname {
+margin-left: 550px;
+padding: 1%;
+margin-bottom: 2%; 
+}

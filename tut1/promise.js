@@ -10,7 +10,7 @@ function prom(a, b) {
             } else {
                 reject("it is wrong");
             }
-        }, 2000);
+        },2000);
     });
 }
 
