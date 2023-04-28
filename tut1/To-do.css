@@ -1,5 +1,5 @@
-.form {
-background-color: black;
+.addForm {
+background-color: rgb(65, 62, 62);
 display: grid;
 padding: 5% 0 6% 0  ;
 
@@ -14,8 +14,13 @@ margin-left: 550px;
 margin-bottom: 2%;
 padding: 1%;
 }
-.lname {
+.email {
 margin-left: 550px;
 padding: 1%;
 margin-bottom: 2%; 
+}
+.sub {
+padding: 1% 5% 1% 5%;
+background-color: rgb(58, 35, 35);
+color: azure;
 }

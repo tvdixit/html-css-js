@@ -32,25 +32,25 @@
         <!-- <label id="lblsuccess" class="text-success" style="display: none;"> -->
         <!-- </label> -->
 
-        <form id="addForm">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7">
+<form id="addForm">
+<div>
+                <!-- <div class="col-lg-7 col-md-7 col-sm-7"> -->
 
-                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item">
-                </div>
+<input type="text" onkeyup="toggleButton(this, 'submit')"  id="item">
+                <!-- </div> -->
 
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
-                </div>
-            </div>
-        </form>
+                <!-- <div class="col-lg-5 col-md-5 col-sm-5"> -->
+<input type="submit" id="submit" value="Submit" disabled>
+                <!-- </div> -->
+</div>
+</form>
 
-        <h3 class="mt-4">Tasks</h3>
+<h3>Tasks</h3>
 
-        <form id="addForm">
-            <ul class="list-group" id="items"></ul>
-        </form>
-    </div>
+<form id="addForm">
+<ul class="list-group" id="items"></ul>
+</form>
+</div>
 </body>
 
 </html>
@@ -94,25 +94,23 @@
         // }
 
         let newItem = document.getElementById("item").value;
-        if (newItem.trim() == "" || newItem.trim() == null)
-            return false;
-        else
-            document.getElementById("item").value = "";
+        // if (newItem.trim() == "" || newItem.trim() == null)
+        //     return false;
+        // else
+        //     document.getElementById("item").value = "";
 
         let li = document.createElement("li");
-        li.className = "list-group-item";
+        // li.className = "list-group-item";
 
         let deleteButton = document.createElement("button");
 
-        deleteButton.className =
-            "btn-danger btn btn-sm float-right delete";
+        deleteButton.className = "delete";
 
         deleteButton.appendChild(document.createTextNode("Delete"));
 
         let editButton = document.createElement("button");
 
-        editButton.className =
-            "btn-success btn btn-sm float-right edit";
+        editButton.className = "edit";
 
         editButton.appendChild(document.createTextNode("Edit"));
 
@@ -129,28 +127,23 @@
             if (confirm("Are you Sure?")) {
                 let li = e.target.parentNode;
                 items.removeChild(li);
-                document.getElementById("lblsuccess").innerHTML
-                    = "Text deleted successfully";
+                // document.getElementById("lblsuccess").innerHTML = "Text deleted successfully";
 
-                document.getElementById("lblsuccess")
-                    .style.display = "block";
+                // document.getElementById("lblsuccess").style.display = "block";
 
-                setTimeout(function () {
-                    document.getElementById("lblsuccess")
-                        .style.display = "none";
-                }, 3000);
+                // setTimeout(function () {
+                //     document.getElementById("lblsuccess").style.display = "none";
+                // }, 3000);
             }
         }
         if (e.target.classList.contains("edit")) {
-            document.getElementById("item").value =
-                e.target.parentNode.childNodes[0].data;
-            submit.value = "EDIT";
-            editItem = e;
+            document.getElementById("item").value = e.target.parentNode.childNodes[0].data;
+            // submit.value = "EDIT";
+            // editItem = e;
         }
     }
 
     function toggleButton(ref, btnID) {
-        document.getElementById(btnID).disabled = false;
-    }
-
+    document.getElementById(btnID).disabled = false;
+     }
 </script>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,38 @@
     <title>To-do</title>
     <link rel="stylesheet" href="To-do.css">
 </head>
+
 <body>
-<script src="To-do.js"></script>
-<form action="" class="form">
-        <font size="11" style="font-style: oblique;">
-           <h3 class="todo">To-Do List</h3>
-        </font>
-    <div>
+    <div class="mytodo-list">
+    <form class="addForm" action="javascript:void(0);" id="CreateForm">
+        <font size="11" style="font-style: oblique;"><h3 class="todo">To-Do List</h3></font>
         <div>
-            <input type="text" placeholder="First Name" class="fname"><br>
+            <input type="text" placeholder="Enter Your Name" class="fname" id="fname"><br>
         </div>
         <div>
-            <input type="text" placeholder="Last Name" class="lname"><br>
+            <input type="email" placeholder="Enter Your Email" class="email" id="email"><br>
         </div>
         <div>
-            <input type="email" placeholder="Enter Your Email" class="lname"><br>
+            <input type="number" placeholder="Phone Number" class="email" maxlength="10" id="number"><br>
         </div>
-        <div>
-            <input type="number" placeholder="Phone Number" class="lname" maxlength="10"><br>
+        <div class="email">
+            <button id="add" type="button" onclick="CreateTask()" class="sub">Submit</button>
         </div>
-        <div class="lname">
-            <button type="submit" class="Submit" value="Submit">Submit</button>
-            <button type="reset" value="Reset">Reset</button>
-            <button type="Edit" class="Edit" value="Edit">Edit</button>
-    </div>
-    <form id="Form">
-        <ul class="list-group" id="items"> </ul>
+            
     </form>
-</div>
+    <form action="javascript:void(0);" id="UpdateForm">
+        <div id="listBox">
+            <table border="1">
+                <tr>
+                    <th colspan="3"><h2>My Todo List</h2></th>
+                </tr>
+                <tbody id="mytodo-tasks"></tbody>
+            </table>
+        </div>
+    </div>
+    </form>
 </form>
+    <script src="./To-do.js"></script>
 </body>
+
 </html>
