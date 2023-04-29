@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="To-do.css">
+</head>
+<style>
+    .addForm {
+background-color: rgb(65, 62, 62);
+display: grid;
+padding: 5% 0 6% 0  ;
+
+}
+.todo {
+margin-top: -2%;
+text-align: center;
+background-color: rgb(51, 212, 51);
+}
+.fname {
+margin-left: 550px;
+margin-bottom: 2%;
+padding: 1%;
+}
+.email {
+margin-left: 550px;
+padding: 1%;
+margin-bottom: 2%; 
+}
+.sub {
+padding: 1% 5% 1% 5%;
+background-color: rgb(58, 35, 35);
+color: azure;
+}
+
+</style>
+<body>
+    <div class="mytodo-list">
+        <form class="addForm" action="javascript:void(0);" id="CreateForm">
+            <font size="11" style="font-style: oblique;">
+                <h3 class="todo">To-Do List</h3>
+            </font>
+            <div>
+                <input type="text" placeholder="Enter Your Name" class="fname" id="fname">
+            </div>
+            <div>
+                <input type="email" placeholder="Enter Your Email" class="email" id="email">
+            </div>
+            <div>
+                <input type="number" placeholder="Phone Number" class="email" maxlength="10" id="number">
+            </div>
+            <div class="email">
+                <button id="add" type="button" onclick="CreateTask()" class="sub">Submit</button>
+            </div>
+        </form>
+        <form action="javascript:void(0);" id="UpdateForm">
+
+            <div id="listBox">
+                <table border="1">
+                    <tr>
+                        <th colspan="5">
+                            <h2>My Todo List</h2>
+                        </th>
+                    </tr>
+                    <tbody id="mytodo-tasks"></tbody>
+                </table>
+            </div>
+    </div>
+    </form>
+    </form>
+    <script src="./To-do.js"></script>
+</body>
+
+</html>
