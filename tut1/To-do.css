@@ -1,26 +1,62 @@
 .addForm {
-background-color: rgb(65, 62, 62);
-display: grid;
-padding: 5% 0 6% 0  ;
+    background-color: rgb(65, 62, 62);
+    display: grid;
+    padding: 5% 0 6% 0;
 
 }
+
 .todo {
-margin-top: -2%;
-text-align: center;
-background-color: rgb(51, 212, 51);
+    margin-top: -2%;
+    text-align: center;
+    background-color: rgb(51, 212, 51);
 }
+
 .fname {
-margin-left: 550px;
-margin-bottom: 2%;
-padding: 1%;
+    margin-left: 550px;
+    margin-bottom: 2%;
+    padding: 1%;
 }
+
 .email {
-margin-left: 550px;
-padding: 1%;
-margin-bottom: 2%; 
+    margin-left: 550px;
+    padding: 1%;
+    margin-bottom: 2%;
 }
+
 .sub {
-padding: 1% 5% 1% 5%;
-background-color: rgb(58, 35, 35);
-color: azure;
+    padding: 1% 1% 1% 2%;
+    background-color: rgb(58, 35, 35);
+    color: azure;
+}
+.pop{
+    background-color: rgb(173, 46, 46);
+    color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 80px;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgba(228, 216, 51, 0.555);
+}
+.modal-content {
+    background-color: #c2a4a4;
+    margin-top: right;
+    padding: 0px;
+    width: 60%;
+}
+.close {
+    color: #0c0c0c;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #f80606;
+    text-decoration: none;
+    cursor: pointer;
 }
