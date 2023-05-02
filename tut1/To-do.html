@@ -13,13 +13,13 @@
         <font size="11" style="font-style: oblique;"><h3 class="todo">To-Do List</h3></font>
     <section id="Font">
         <div id="total">
-            <input type="text" placeholder="Enter Your Name" class="fname" id="fname" onkeypress="press()" onkeydown="down()">
+            <input type="text" placeholder="Enter Your Name" class="fname" id="fname">
         </div>
         <div>
-            <input type="email" placeholder="Enter Your Email" class="email fname" id="email" onkeypress="press()" onkeydown="down()">
+            <input type="email" placeholder="Enter Your Email" class="email fname" id="email">
         </div>
         <div>
-            <input type="number" placeholder="Phone Number" class="email" maxlength="10" id="number" onkeypress="press()" onkeydown="down()">
+            <input type="number" placeholder="Phone Number" class="email" maxlength="10" id="number">
         </div>
         <div class="email">
             <button id="add" type="button" onclick="CreateTask()" class="sub">Submit</button>
@@ -27,7 +27,7 @@
         </div>
     </section>
     </form>
-    
+
     <div id="myModal" class="modal">
     <form action="javascript:void(0);" id="UpdateForm">
         <div id="listBox">
@@ -41,7 +41,6 @@
                     </div>
                 </tr>
                 <tbody id="mytodo-tasks"></tbody>
-                
             </table>
         </div>
     </div>
