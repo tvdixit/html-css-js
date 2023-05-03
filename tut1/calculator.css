@@ -17,9 +17,11 @@
     /* height: 15px; */
     /* width: 80px; */
 }
-#cancel{
+
+#cancel {
     height: 60px;
 }
+
 .button {
     padding: 15px 20px;
     font-size: 25px;
@@ -28,12 +30,13 @@
     outline: none;
     color: white;
     background-color: #369b3a;
-    border-radius: 6px;
+    border-radius: 50px;
     box-shadow: 0 6px #999;
     height: 60px;
     width: 70px;
 
 }
+
 .button:hover {
     background-color: rgb(223, 38, 38);
 }
