@@ -37,6 +37,34 @@
 
 }
 
+.button1 {
+    padding: 15px 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #369b3a;
+    border-radius: 50px;
+    box-shadow: 0 6px #999;
+    height: 60px;
+    width: 160px;
+}
+
+.button2 {
+    padding: 5px 20px;
+    font-size: 45px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #369b3a;
+    border-radius: 50px;
+    box-shadow: 0 6px #999;
+    height: 60px;
+    width: 100px;
+}
+
 .button:hover {
     background-color: rgb(223, 38, 38);
 }

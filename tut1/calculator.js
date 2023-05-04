@@ -3,7 +3,18 @@ function clearscreen() {
 }
 
 function display(value) {
-    document.getElementById("result").value += value;
+    console.log();
+    if ((document.getElementById("result").value.length == 0 && "+,/,*)".includes(value)) == false) {
+        document.getElementById("result").value += value;
+    }
+    // else if((length > 0 && "-" > 1).length.includes(value) == false){
+    // else if ((document.getElementById("result").length > 0 && value == '-') && !document.getElementById("result").value.includes('-')) {
+        // console.log('inside else if');
+        // document.getElementById("result").value += value;
+    // }
+    if ("%" == NaN && "√" == NaN) {
+        return (0)
+    }
 }
 
 function calculate() {
@@ -14,32 +25,7 @@ function calculate() {
     document.getElementById("result").value = b;
 }
 
-function cancel() {
-    console.log(document.getElementById("result"));
-    document.getElementById("result").value;
-    calc.result = calc.result.substr(0, calc.result.length - 1);
-}
-
 function ClearOne() {
     let res = document.getElementById("result");
     res.value = res.value.substr(0, res.value.length - 1)
 }
-
-// if (calc.result.value.includes("!")) {
-
-//     size = calc.result.value.length;
-//     n = Number(calc.result.value.substring(0, size - 1));
-//     f = 1;
-
-//     for (i = 2; i <= n; i++)
-//         f = f * i;
-//     calc.result.value = f;
-// }
-// function braces(){
-// let a = arr.forEach(value => {
-//     result.push(value in result
-//     ? options[value](...stack.splice(-2)): value);
-// });
-// }
-// return braces;
-// console.log(stackCalculator(arr));
